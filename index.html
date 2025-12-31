@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Africa Hotel & Spa | Luxury Stay</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">New Africa Hotel</a>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="rooms.html">Rooms & Suites</a></li>
+                <li><a href="amenities.html">Amenities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="rooms.html" class="btn-book-nav">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Experience Timeless Luxury</h1>
+            <p>Escape to a world of elegance, comfort, and breathtaking views in the heart of the city.</p>
+            <a href="rooms.html" class="btn btn-primary">View Our Rooms</a>
+        </div>
+    </header>
+
+    <!-- Availability Checker (Mockup) -->
+    <div class="booking-bar">
+        <form class="booking-form" onsubmit="event.preventDefault(); window.location.href='rooms.html';">
+            <div class="form-group">
+                <label>Check In</label>
+                <input type="date" required>
+            </div>
+            <div class="form-group">
+                <label>Check Out</label>
+                <input type="date" required>
+            </div>
+            <div class="form-group">
+                <label>Guests</label>
+                <select>
+                    <option>1 Adult</option>
+                    <option>2 Adults</option>
+                    <option>2 Adults, 1 Child</option>
+                    <option>Family (4+)</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-accent">Check Availability</button>
+        </form>
+    </div>
+
+    <!-- About Preview -->
+    <section class="section about-preview">
+        <div class="container grid-2">
+            <div class="text-content">
+                <h2 class="section-title">Welcome to New Africa Hotel</h2>
+                <p class="lead">Where modern sophistication meets classic hospitality.</p>
+                <p>Located just steps from the vibrant city center yet tucked away in a serene oasis, New Africa Hotel offers the perfect blend of convenience and tranquility. Whether you are here for business or leisure, our dedicated staff ensures your stay is nothing short of exceptional.</p>
+                <div class="features-list">
+                    <span><i class="fas fa-concierge-bell"></i> 24/7 Concierge</span>
+                    <span><i class="fas fa-wifi"></i> High-Speed Wi-Fi</span>
+                    <span><i class="fas fa-spa"></i> Luxury Spa</span>
+                </div>
+                <a href="amenities.html" class="btn btn-secondary">Discover More</a>
+            </div>
+            <div class="image-content">
+                <img src="images/lobby.jpg" alt="Hotel Lobby" class="feature-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Rooms -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Accommodations</h2>
+                <p>Designed for your ultimate comfort and relaxation.</p>
+            </div>
+            <div class="grid-3">
+                <div class="room-card">
+                    <div class="room-img">
+                        <img src="images/room-standard.jpg" alt="Deluxe King Room">
+                        <span class="price">$199 / night</span>
+                    </div>
+                    <div class="room-details">
+                        <h3>Deluxe King Room</h3>
+                        <p>Spacious room with a king-sized bed, city views, and marble bathroom.</p>
+                        <ul class="room-features">
+                            <li><i class="fas fa-user"></i> 2 Guests</li>
+                            <li><i class="fas fa-ruler-combined"></i> 35m²</li>
+                        </ul>
+                        <a href="rooms.html" class="btn-text">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-img">
+                        <img src="images/room-deluxe.jpg" alt="Executive Suite">
+                        <span class="price">$299 / night</span>
+                    </div>
+                    <div class="room-details">
+                        <h3>Executive Suite</h3>
+                        <p>Separate living area, panoramic views, and executive lounge access.</p>
+                        <ul class="room-features">
+                            <li><i class="fas fa-user"></i> 3 Guests</li>
+                            <li><i class="fas fa-ruler-combined"></i> 55m²</li>
+                        </ul>
+                        <a href="rooms.html" class="btn-text">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-img">
+                        <img src="images/room-suite.jpg" alt="Presidential Suite">
+                        <span class="price">$599 / night</span>
+                    </div>
+                    <div class="room-details">
+                        <h3>Presidential Penthouse</h3>
+                        <p>The ultimate luxury experience with private terrace and jacuzzi.</p>
+                        <ul class="room-features">
+                            <li><i class="fas fa-user"></i> 4 Guests</li>
+                            <li><i class="fas fa-ruler-combined"></i> 120m²</li>
+                        </ul>
+                        <a href="rooms.html" class="btn-text">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>New Africa Hotel</h3>
+                    <p>Luxury Hotel & Spa</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="rooms.html">Rooms</a>
+                    <a href="amenities.html">Amenities</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Ocean Drive, Paradise City</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> stay@newafricahotel.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 New Africa Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

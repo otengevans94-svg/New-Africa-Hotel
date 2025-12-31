@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms & Suites | New Africa Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">New Africa Hotel</a>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html" class="active">Rooms & Suites</a></li>
+                <li><a href="amenities.html">Amenities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="rooms.html" class="btn-book-nav">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header" style="background-image: url('images/room-header.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <h1>Our Accommodations</h1>
+            <p>Sanctuaries of style and substance</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <!-- Room Item 1 -->
+            <div class="room-list-item">
+                <div class="room-list-img">
+                    <img src="images/room-standard.jpg" alt="Deluxe King">
+                </div>
+                <div class="room-list-content">
+                    <h2>Deluxe King Room</h2>
+                    <p class="price">From $199 / night</p>
+                    <p>Our Deluxe King Rooms offer a perfect blend of comfort and convenience. Featuring plush bedding, a dedicated workspace, and a modern marble bathroom with rainfall shower.</p>
+                    <div class="amenities-icons">
+                        <span><i class="fas fa-wifi"></i> Free Wifi</span>
+                        <span><i class="fas fa-tv"></i> Smart TV</span>
+                        <span><i class="fas fa-coffee"></i> Coffee Maker</span>
+                        <span><i class="fas fa-snowflake"></i> AC</span>
+                    </div>
+                    <button class="btn btn-primary" onclick="alert('Booking feature coming soon! Please call us.')">Book This Room</button>
+                </div>
+            </div>
+
+            <!-- Room Item 2 -->
+            <div class="room-list-item reverse">
+                <div class="room-list-img">
+                    <img src="images/room-deluxe.jpg" alt="Executive Suite">
+                </div>
+                <div class="room-list-content">
+                    <h2>Executive Suite</h2>
+                    <p class="price">From $299 / night</p>
+                    <p>Elevate your stay in our Executive Suites. Enjoy a separate living area perfect for relaxing or small meetings, plus exclusive access to the Executive Lounge for complimentary breakfast and evening cocktails.</p>
+                    <div class="amenities-icons">
+                        <span><i class="fas fa-couch"></i> Living Area</span>
+                        <span><i class="fas fa-bath"></i> Bathtub</span>
+                        <span><i class="fas fa-wine-glass-alt"></i> Mini Bar</span>
+                        <span><i class="fas fa-city"></i> City View</span>
+                    </div>
+                    <button class="btn btn-primary" onclick="alert('Booking feature coming soon! Please call us.')">Book This Room</button>
+                </div>
+            </div>
+
+            <!-- Room Item 3 -->
+            <div class="room-list-item">
+                <div class="room-list-img">
+                    <img src="images/room-suite.jpg" alt="Presidential Penthouse">
+                </div>
+                <div class="room-list-content">
+                    <h2>Presidential Penthouse</h2>
+                    <p class="price">From $599 / night</p>
+                    <p>The pinnacle of luxury. Our top-floor Penthouse features a wrap-around terrace, private jacuzzi, dining room for six, and butler service. The ultimate choice for VIPs and special occasions.</p>
+                    <div class="amenities-icons">
+                        <span><i class="fas fa-hot-tub"></i> Jacuzzi</span>
+                        <span><i class="fas fa-user-tie"></i> Butler</span>
+                        <span><i class="fas fa-utensils"></i> Dining Area</span>
+                        <span><i class="fas fa-water"></i> Ocean View</span>
+                    </div>
+                    <button class="btn btn-primary" onclick="alert('Booking feature coming soon! Please call us.')">Book This Room</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-center">&copy; 2026 New Africa Hotel. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

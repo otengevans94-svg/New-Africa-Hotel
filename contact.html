@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | New Africa Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">New Africa Hotel</a>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Rooms & Suites</a></li>
+                <li><a href="amenities.html">Amenities</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="rooms.html" class="btn-book-nav">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header" style="background-image: url('images/hero.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>We're here to help you plan your perfect stay</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container contact-layout">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p class="mb-4">Have questions about your reservation or need assistance planning your trip? Our concierge team is available 24/7.</p>
+                
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>123 Ocean Drive<br>Paradise City, FL 33139</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                        <p>+1 (555) 987-6543 (Reservations)</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>reservations@newafricahotel.com</p>
+                        <p>concierge@newafricahotel.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <h2>Send us a Message</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" name="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Subject</label>
+                        <select name="subject">
+                            <option value="Reservation Inquiry">Reservation Inquiry</option>
+                            <option value="Event Planning">Event Planning</option>
+                            <option value="Feedback">General Feedback</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea name="message" rows="5" required placeholder="How can we help you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-center">&copy; 2026 New Africa Hotel. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
