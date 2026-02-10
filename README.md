@@ -1,5 +1,4 @@
-# New-Africa-Hotel
-This project is a Demo website for a hotel called New Aftica Hotel 
-Designed by- Oteng Evans
-Index nunber - 2425400020
-BIT Weekend - GCTU
+NAME: EVANS OTENG
+INDEX NUMBER: 2425400002 
+COURSE: MULTIMEDIA AND WEB DESIGN SESSION: WEEKEND BIT LEVEL 200 
+DATE: 8TH FEB.2026
